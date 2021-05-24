@@ -1,0 +1,49 @@
+
+#forecastContainer{
+    background-color: blue;
+    width: 80%;
+    margin: auto;
+    border-radius: 10%;
+    color: white;
+}
+#locationHeader{
+    font-size: 300%;
+    text-align: center;
+}
+#weatherSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 10px;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+
+}
+#weatherDescription{
+
+    font-size: 200%;
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+#temperature{
+    font-size: 200%;
+    padding: 10px;
+}
+#weatherIcon{
+    width: 50%;
+}
+#weatherText{
+    display: flex;
+}
+#lowerWeatherText{
+
+    display: flex;
+    flex: 1 1 20px;
+
+
+}
+#lowerWeatherText p{
+    padding: 0px 10px 0px 10px;
+    font-size: 150%;
+}
